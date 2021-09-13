@@ -18,11 +18,13 @@ namespace Tamagotchi
         public string name;
 
         public void Feed(){
+            hunger--;
 
         }
 
         public void Hi(){
-
+            Console.WriteLine(words[generator.Next(words.Count)]);
+            ReduceBoredom();
         }
 
         public void Teach(string word){
@@ -30,6 +32,13 @@ namespace Tamagotchi
         }
 
         public void Tick(){
+            hunger++;
+            boredom++;
+
+            if (hunger > 10 || boredom > 10)
+            {
+                isAlive= false;
+            }
 
         }
 
