@@ -28,7 +28,8 @@ namespace Tamagotchi
         }
 
         public void Teach(string word){
-
+            words.Add(word);
+            ReduceBoredom();
         }
 
         public void Tick(){
@@ -43,15 +44,23 @@ namespace Tamagotchi
         }
 
         public void PrintStats(){
-
+            if (isAlive)
+            {
+                Console.WriteLine($"Your pets hunger is {hunger}");
+                Console.WriteLine($"Your pets boredom is {boredom}");
+            }
+            else
+            {
+                Console.WriteLine("Your pet has sadly passed away");
+            }
         }
 
         public bool GetAlive(){
-            return true;
+            return isAlive;
         }
 
         private void ReduceBoredom(){
-            
+            boredom--;
         }
 
 
