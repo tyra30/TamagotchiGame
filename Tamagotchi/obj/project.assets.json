@@ -8,23 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Tyra.ekstrand\\.nuget\\packages\\": {},
+    "C:\\Users\\tyra.ekstrand\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programmering\\TamagotchiGame\\Tamagotchi\\Tamagotchi.csproj",
+      "projectUniqueName": "C:\\programmering\\TamagotchiGame\\Tamagotchi\\Tamagotchi.csproj",
       "projectName": "Tamagotchi",
-      "projectPath": "C:\\Programmering\\TamagotchiGame\\Tamagotchi\\Tamagotchi.csproj",
-      "packagesPath": "C:\\Users\\Tyra.ekstrand\\.nuget\\packages\\",
-      "outputPath": "C:\\Programmering\\TamagotchiGame\\Tamagotchi\\obj\\",
+      "projectPath": "C:\\programmering\\TamagotchiGame\\Tamagotchi\\Tamagotchi.csproj",
+      "packagesPath": "C:\\Users\\tyra.ekstrand\\.nuget\\packages\\",
+      "outputPath": "C:\\programmering\\TamagotchiGame\\Tamagotchi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tyra.ekstrand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tyra.ekstrand\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
